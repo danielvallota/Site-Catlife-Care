@@ -1,0 +1,597 @@
+/*RESET*/
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+/*HEADER*/
+.container {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+header .container {
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+header .container img {
+    display: flex;
+    height: 80px;
+    margin-left: 16px;
+}
+
+header li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+    font-size: x-large;
+}
+
+
+
+/*INDEX*/
+.index {
+    margin-top: 80px;
+}
+
+.container {
+    display: flex;
+}
+#imagem-gato {
+    width: 30%;
+    margin-left: 20px;
+    margin-bottom: 170px;
+    padding-top: 30px;
+}
+
+#texto-descubra {
+    width: 80%;
+    margin-right: 40px;
+}
+
+#texto-descubra p {
+    text-align: center;
+}
+
+#h2 h2 {
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.container .gato {
+    height: 400px;
+}
+
+.container p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: large;
+}
+
+
+
+/*FELINO*/
+.itens-felinos {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+#itens {
+    margin-bottom: 80px;
+    margin-top: 65px;
+}
+#itens, h2 {
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+}
+
+#itens h2 {
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
+
+#itens p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#itens div {
+    width: 33%;
+}
+.pote {
+    width: 33%;
+} 
+
+.pote img {
+    width: 250px;
+    text-align: center;
+}
+#itens a img {
+    height: 40px;
+}
+
+.gato-fantasia img {
+    height: 300px;
+    padding-left: 30px;
+    text-align: center;
+
+}
+.gato-fantasia {
+    width: 33%;
+    text-align: center;
+}
+.gato-fantasia p {
+    text-align: center;
+}
+
+.prato {
+    text-align: center;
+}
+
+.prato-img img {
+    width: 250px;
+}
+
+#itens div p img {
+    height: 35px;
+}
+
+.pote {
+    text-align: center;
+}
+
+
+/*HUMANOS*/
+.humanos-produtos .produtos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.produtos {
+    margin-bottom: 100px;
+    margin-top: 93px;
+}
+.humanos-produtos {
+    margin-top: 65px;
+    margin-bottom: 100px;
+}
+
+.humanos-produtos p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.humanos-produtos h2 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.produtos {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#produto1 p a img {
+    height: 40px;
+}
+#produto1 p, #produto2 p, #produto3 p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#produto2 p a img {
+    height: 40px;
+}
+
+#produto3 p a img {
+    height: 40px;
+}
+
+#produto1 img {
+    height: 250px;
+    margin-left: 20px;
+}
+
+#produto2 img {
+    height: 250px;
+}
+
+#produto3 img {
+    text-align: center;
+    height: 260px;
+}
+#produto3 {
+    text-align: center;
+}
+.humanos-produtos .produtos img, .produtos p, .produtos h2 {
+    justify-content: center;
+}
+
+.humanos-produtos #itens h2 {
+    justify-content: center;
+}
+
+#produto1 h2 {
+    margin-bottom: 30px;
+}
+
+#produto2 h2 {
+    margin-bottom: 40px;
+}
+
+
+
+/*LINHAGEM*/
+.linhas {
+    border: 1px solid rgb(224, 224, 224); 
+    margin-bottom: 10px;
+}
+.linhagem {
+    align-items: flex-start;
+}
+
+#margem {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.linhagem, .linhagem h2, .linhagem p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linhagem h2 {
+    font-size: xx-large;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.linhagem p {
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.linhagem img {
+    height: 440px;
+}
+
+.linhagem div img {
+    margin-right: 140px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+#gato-coroa img {
+    margin-bottom: 150px;
+
+}
+
+
+
+/*CHAMADA*/
+#chamada {
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 50px;
+    padding-bottom: 80px;
+}
+
+
+
+/*PASSADO*/
+#passado {
+    width: 50%;
+}
+
+.pai-passado {
+    margin-bottom: 30px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;    align-items: center;
+}
+
+.pai-passado h3, .pai-antiguidade h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: xx-large;
+}
+
+.pai-passado p, .pai-antiguidade p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+.pai-passado img {
+    margin-right: 100px;
+    align-items: center;
+
+}
+#passado h3, #passado p {
+    text-align: center;
+}
+#img-egip img {
+    width: 50%;
+    margin-left: 250px;
+    width: 300px;
+}
+
+#img-egip {
+    width: 50%;
+}
+
+
+
+/*ANTIGUIDADE*/
+.pai-antiguidade {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+#img-antiguidade {
+    width: 50%;
+}
+
+#img-antiguidade img {
+    width: 60%;
+    width: 300px;
+    width: 350px;
+    padding-top: 50px;
+}
+
+#antiguidade {
+    width: 50%;
+    text-align: center;
+}
+
+
+
+/*EGIPICIA*/
+.egipicia-pai {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+#egipicia {
+    width: 55%;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 70px;
+    
+}
+
+#img-egipicia {
+    width: 30%;
+    align-items: center;
+}
+
+#img-egipicia img {
+    width: 40%;
+    margin-left: 150px;
+    margin-top: 15px;
+    width: 160px;
+
+}
+
+
+
+/*IDADE MEDIA*/
+#egipicia h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: xx-large;
+}
+
+#egipicia p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+.idade-media-pai {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+#idade-media-img img {
+    width: 65%;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+#idade-media-img {
+    width: 30%;
+    margin-right: 40px ;
+}
+
+#idade-media {
+    width: 65%;
+    text-align: center;
+    margin-left: 70px;
+}
+
+#idade-media h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: xx-large;
+}
+
+#idade-media p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+
+
+/*DOMESTICACAO*/
+.domesticacao-pai {
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+#domesticacao-img img {
+    width: 65%;
+    margin-left: 140px;
+    margin-top: 25px;
+    width: 350px;
+}
+
+#domesticacao-img {
+    width: 50%;
+}
+
+#dom-moderna {
+    width: 70%;
+}
+
+#dom-moderna p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+#dom-moderna h3 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: xx-large;
+}
+
+
+
+/*FINALMENTE*/
+#finalmente {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+
+#finalmente h3 {
+    font-size: large;
+}
+
+
+
+/*CONTATO*/
+#form input, textarea {
+    display: block;
+    width: 320px;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: rgb(244, 243, 243);
+    text-align: center;
+    margin-left: 40px;
+}
+
+form button:hover {
+    background-color: rgb(237, 175, 81);
+}
+
+textarea {
+    resize: none;
+    height: 180px;
+    border: none;
+}
+
+form button {
+    width: 320px;
+    background-color: rgb(241, 203, 146);
+    padding: 3px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    font-size: larger;
+}
+
+#form p {
+    font-size: larger;
+    margin-left: 170px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#texto-contato p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#texto-contato h3 {
+    margin-bottom: 10px;
+}
+
+#form h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 160px;
+}
+
+#img-gato img {
+    width: 60%;
+    margin-left: 70px;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+#img-gato {
+    width: 40%;
+}
+
+#texto-contato {
+    width: 70%;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.form-pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-pai h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: xx-large;
+}
+
+#contato-form h3 {
+    width: 50%;
+    font-size: xx-large;
+}
+
+
+
+/*FOOTER*/
+footer #rodape {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+footer p {
+    color: rgb(82, 82, 82);
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
